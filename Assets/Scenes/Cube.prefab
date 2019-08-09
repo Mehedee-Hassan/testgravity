@@ -105,3 +105,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   world: {fileID: 5964239341479757957, guid: 4be7f00243ca2ee45b789779b9d07639, type: 3}
+  turnSpeed: 10
+  rotationForcing: 0
+  rotateForce: 10
+  x: 0
+  y: 0
+  z: 0
