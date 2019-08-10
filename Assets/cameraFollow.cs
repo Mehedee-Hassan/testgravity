@@ -45,7 +45,7 @@ public class cameraFollow : MonoBehaviour
 		transform.position = Vector3.Lerp(transform.position, newPosition, SmoothFactor);
 
 		//transform.Rotate(new Vector3(34.791f, -44.153f, 1.423f));// = new Quaternion(x,y,z,w);
-		transform.LookAt(mainObject);
+		transform.LookAt(followMeObj);
 		//transform.rotation = Quaternion.Lerp(transform.rotation, _cameraOffsetRotation,Time.deltaTime * 100);
 	}
 }

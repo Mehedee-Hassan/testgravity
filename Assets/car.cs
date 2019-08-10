@@ -25,18 +25,19 @@ public class car : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
 		///NOTE::
 		//for each update pull this object to the world
 		///DEBUG::
 		//print("test update");
 
-		navigate();
+
 		move();
+		navigate();
 
 		Vector3 direction = world.transform.position - transform.position;
-		rigidBody.AddForce(3.0f*direction);
+		rigidBody.AddForce(10.0f*direction);
 
 
 
@@ -52,7 +53,7 @@ public class car : MonoBehaviour
 	{
 
 		//transform.Rotate(new Vector3(rotationForcing, 0.0f, 0f));
-		transform.Translate(0f,0f,2f*Time.deltaTime);
+		transform.Translate(0f,0f,8f*Time.deltaTime);
 
 
 		/*transform.RotateAround(world.transform.position, 
@@ -68,7 +69,7 @@ public class car : MonoBehaviour
 	
 		if (Input.GetKey("up"))
 		{
-			transform.Translate(0f, 0f, 5f * Time.deltaTime);
+			transform.Translate(0f, 0f, 2f * Time.deltaTime);
 		}
 
 		if (Input.GetKey("down"))
