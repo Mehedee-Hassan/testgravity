@@ -53,14 +53,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\cameraexperi1.cs" />
-     <Compile Include="Assets\cameraFollow.cs" />
-     <Compile Include="Assets\CameraFollowR.cs" />
-     <Compile Include="Assets\CameraMove.cs" />
-     <Compile Include="Assets\cameramoverigid1.cs" />
-     <Compile Include="Assets\car.cs" />
-     <Compile Include="Assets\move.cs" />
-     <Compile Include="Assets\worldmove.cs" />
+     <Compile Include="Assets\DroppedPlace.cs" />
+     <Compile Include="Assets\scripts\cameraexperi1.cs" />
+     <Compile Include="Assets\scripts\cameraFollow.cs" />
+     <Compile Include="Assets\scripts\CameraFollowR.cs" />
+     <Compile Include="Assets\scripts\CameraMove.cs" />
+     <Compile Include="Assets\scripts\cameramoverigid1.cs" />
+     <Compile Include="Assets\scripts\car.cs" />
+     <Compile Include="Assets\scripts\MateroFall.cs" />
+     <Compile Include="Assets\scripts\MDropCollistion.cs" />
+     <Compile Include="Assets\scripts\move.cs" />
+     <Compile Include="Assets\scripts\Spawner.cs" />
+     <Compile Include="Assets\scripts\worldmove.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>E:/Unity Projects/test/lab/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>

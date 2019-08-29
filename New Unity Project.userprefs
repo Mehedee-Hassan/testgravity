@@ -1,16 +1,13 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{35A81F1E-5B2D-664B-C8B1-70BC8E9A30BC}|Unit Tests">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\car.cs">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\spawner.cs">
     <Files>
-      <File FileName="Assets\CameraFollowR.cs" Line="61" Column="7" />
-      <File FileName="Assets\car.cs" Line="92" Column="61" />
-      <File FileName="Assets\cameramoverigid1.cs" Line="37" Column="74" />
-      <File FileName="Assets\cameraexperi1.cs" Line="22" Column="5" />
-      <File FileName="Assets\worldmove.cs" Line="16" Column="8" />
+      <File FileName="Assets\spawner.cs" Line="10" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
 </Properties>

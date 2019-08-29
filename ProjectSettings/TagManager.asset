@@ -5,7 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - car
+  - world
+  - mateor
   - earth
+  - droppedP
   layers:
   - Default
   - TransparentFX
